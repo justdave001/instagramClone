@@ -2,11 +2,10 @@ package com.codepath.oobal.instagram;
 
 import android.app.Application;
 
+import com.codepath.oobal.instagram.data.model.Post;
 import com.parse.Parse;
 import com.parse.ParseObject;
 
-import static com.parse.Parse.*;
-import static com.parse.Parse.Configuration.*;
 public class ParseApplication extends Application {
     @Override
     public void onCreate() {

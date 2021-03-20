@@ -7,7 +7,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
-    tools:context=".ui.login.LoginActivity">
+    tools:context=".LoginActivity">
 
 
     <EditText
@@ -33,5 +33,12 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="login" />
+
+    <Button
+        android:id="@+id/btnSignup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Sign up" />
 
 </LinearLayout>

@@ -1,4 +1,4 @@
-package com.codepath.oobal.instagram;
+package com.codepath.oobal.instagram.data.model;
 
 import com.parse.ParseClassName;
 import com.parse.ParseFile;
@@ -8,9 +8,9 @@ import com.parse.ParseUser;
 
 @ParseClassName("Post")
 public class Post extends ParseObject {
-    public static final String KEY_DESCRIPTION = "description";
-    public static final String KEY_IMAGE = "image";
-    public static final String KEY_USER = "user";
+    public static final String KEY_DESCRIPTION = "Description";
+    public static final String KEY_IMAGE = "Image";
+    public static final String KEY_USER = "User";
 
     public String getDescription() {
         return getString(KEY_DESCRIPTION);
