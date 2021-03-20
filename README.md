@@ -28,7 +28,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http:InstagramClone.gif' title='InstagramClone' width='' alt='InstagramClone' />
+<img src='InstagramClone.gif' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
