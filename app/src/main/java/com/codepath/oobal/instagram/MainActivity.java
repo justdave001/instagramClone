@@ -60,7 +60,6 @@ public class MainActivity extends AppCompatActivity {
                 Fragment fragment;
                 switch (menuItem.getItemId()) {
                     case R.id.action_home:
-                        //TODO: update fragment
                         Toast.makeText(MainActivity.this, "Home!", Toast.LENGTH_SHORT).show();
                         fragment = new PostsFragment();
                         break;
@@ -71,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
                     case R.id.action_profile:
                     default:
                         Toast.makeText(MainActivity.this, "Profile!", Toast.LENGTH_SHORT).show();
+                        //TODO: update fragment
                         fragment = new ComposeFragment();
                         break;
                 }
